@@ -1,8 +1,6 @@
 ﻿namespace DzEvm.Tasks;
 
-/// <summary>
-/// Задание 3: Вычисление гипотенузы
-/// </summary>
+
 public class Task3_Hypotenuse
 {
     public static void Execute()
