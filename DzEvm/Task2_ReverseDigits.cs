@@ -1,8 +1,6 @@
 ﻿namespace DzEvm.Tasks;
 
-/// <summary>
-/// Задание 2: Обратный порядок цифр двузначного числа
-/// </summary>
+
 public class Task2_ReverseDigits
 {
     public static void Execute()
