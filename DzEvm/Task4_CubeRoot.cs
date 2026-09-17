@@ -1,8 +1,6 @@
 ﻿namespace DzEvm.Tasks;
 
-/// <summary>
-/// Задание 4: Вычисление кубического корня
-/// </summary>
+
 public class Task4_CubeRoot
 {
     public static void Execute()

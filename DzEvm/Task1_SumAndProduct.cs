@@ -1,8 +1,6 @@
 ﻿namespace DzEvm.Tasks;
 
-/// <summary>
-/// Задание 1: Вычисление суммы и произведения трёх чисел
-/// </summary>
+
 public class Task1_SumAndProduct
 {
     public static void Execute()

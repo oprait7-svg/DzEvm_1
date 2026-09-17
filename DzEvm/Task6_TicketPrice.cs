@@ -1,8 +1,6 @@
 ﻿namespace DzEvm.Tasks;
 
-/// <summary>
-/// Задание 6: Расчёт цены билета по возрасту
-/// </summary>
+
 public class Task6_TicketPrice
 {
     public static void Execute()

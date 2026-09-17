@@ -1,8 +1,6 @@
 ﻿namespace DzEvm.Tasks;
 
-/// <summary>
-/// Задание 5: Количество дней в месяце
-/// </summary>
+
 public class Task5_DaysInMonth
 {
     public static void Execute()

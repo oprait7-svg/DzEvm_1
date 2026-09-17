@@ -1,8 +1,6 @@
 ﻿namespace DzEvm.Tasks;
 
-/// <summary>
-/// Задание 7: Проверка треугольника и определение прямоугольности
-/// </summary>
+
 public class Task7_Triangle
 {
     public static void Execute()
