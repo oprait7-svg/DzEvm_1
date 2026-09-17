@@ -1,6 +1,5 @@
 ﻿namespace DzEvm.Tasks;
 
-
 public class Task7_Triangle
 {
     public static void Execute()
