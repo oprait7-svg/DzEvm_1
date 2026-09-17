@@ -20,10 +20,10 @@ public class Task6_TicketPrice
     {
         return age switch
         {
-            < 7 => 0,                    // Бесплатно для детей до 7 лет
-            < 18 => basePrice / 2,       // 50% для детей и подростков
-            <= 60 => basePrice,          // Полная цена для взрослых
-            _ => basePrice / 2            // 50% для пенсионеров
+            < 7 => 0,                    
+            < 18 => basePrice / 2,      
+            <= 60 => basePrice,          
+            _ => basePrice / 2            
         };
     }
     
