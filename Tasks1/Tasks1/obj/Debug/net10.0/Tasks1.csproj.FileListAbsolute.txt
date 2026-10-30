@@ -1,0 +1,15 @@
+C:\Users\eXC24\source\repos\DzEvm_1\Tasks1\Tasks1\bin\Debug\net10.0\Tasks1.exe
+C:\Users\eXC24\source\repos\DzEvm_1\Tasks1\Tasks1\bin\Debug\net10.0\Tasks1.deps.json
+C:\Users\eXC24\source\repos\DzEvm_1\Tasks1\Tasks1\bin\Debug\net10.0\Tasks1.runtimeconfig.json
+C:\Users\eXC24\source\repos\DzEvm_1\Tasks1\Tasks1\bin\Debug\net10.0\Tasks1.dll
+C:\Users\eXC24\source\repos\DzEvm_1\Tasks1\Tasks1\bin\Debug\net10.0\Tasks1.pdb
+C:\Users\eXC24\source\repos\DzEvm_1\Tasks1\Tasks1\obj\Debug\net10.0\Tasks1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eXC24\source\repos\DzEvm_1\Tasks1\Tasks1\obj\Debug\net10.0\Tasks1.AssemblyInfoInputs.cache
+C:\Users\eXC24\source\repos\DzEvm_1\Tasks1\Tasks1\obj\Debug\net10.0\Tasks1.AssemblyInfo.cs
+C:\Users\eXC24\source\repos\DzEvm_1\Tasks1\Tasks1\obj\Debug\net10.0\Tasks1.csproj.CoreCompileInputs.cache
+C:\Users\eXC24\source\repos\DzEvm_1\Tasks1\Tasks1\obj\Debug\net10.0\Tasks1.dll
+C:\Users\eXC24\source\repos\DzEvm_1\Tasks1\Tasks1\obj\Debug\net10.0\refint\Tasks1.dll
+C:\Users\eXC24\source\repos\DzEvm_1\Tasks1\Tasks1\obj\Debug\net10.0\Tasks1.pdb
+C:\Users\eXC24\source\repos\DzEvm_1\Tasks1\Tasks1\obj\Debug\net10.0\Tasks1.genruntimeconfig.cache
+C:\Users\eXC24\source\repos\DzEvm_1\Tasks1\Tasks1\obj\Debug\net10.0\ref\Tasks1.dll
+C:\Users\eXC24\source\repos\DzEvm_1\Tasks1\Tasks1\obj\Debug\net10.0\Tasks1.csproj.Up2Date
