@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json.Serialization;
 
-// Регистрируем сервис и настраиваем приложение.
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddSingleton<IPlantService, PlantService>();
@@ -25,7 +25,7 @@ app.MapControllers();
 app.Run();
 
 
-// Уровень ухода за растением.
+
 public enum Care
 {
     Easy,
@@ -34,7 +34,7 @@ public enum Care
 }
 
 
-// Модель растения.
+
 public class Plant
 {
     public int Id { get; set; }
@@ -45,7 +45,7 @@ public class Plant
 }
 
 
-// Данные, которые клиент отправляет при добавлении растения.
+
 public class CreatePlantRequest
 {
     public string Name { get; set; } = "";
@@ -54,8 +54,7 @@ public class CreatePlantRequest
 }
 
 
-// Данные, которые сервер отправляет клиенту.
-// Supplier не включен, так как его не показываем клиенту.
+
 public class PlantResponse
 {
     public int Id { get; set; }
@@ -65,7 +64,7 @@ public class PlantResponse
 }
 
 
-// Интерфейс — список того, что умеет сервис.
+
 public interface IPlantService
 {
     List<Plant> GetAll();
@@ -74,7 +73,7 @@ public interface IPlantService
 }
 
 
-// Сервис хранит растения и выполняет основные действия с ними.
+
 public class PlantService : IPlantService
 {
     private readonly List<Plant> _plants = new List<Plant>
@@ -103,7 +102,7 @@ public class PlantService : IPlantService
 
     public Plant? Add(CreatePlantRequest request)
     {
-        // Проверяем, что растения с таким названием еще нет.
+        
         bool exists = _plants.Any(p =>
             p.Name.Equals(request.Name, StringComparison.OrdinalIgnoreCase));
 
@@ -127,7 +126,6 @@ public class PlantService : IPlantService
 }
 
 
-// Контроллер принимает запросы и выбирает HTTP-ответы.
 [ApiController]
 [Route("api/[controller]")]
 public class PlantsController : ControllerBase
@@ -139,7 +137,7 @@ public class PlantsController : ControllerBase
         _plantService = plantService;
     }
 
-    // GET /api/plants
+    
     [HttpGet]
     public ActionResult<List<PlantResponse>> GetAll()
     {
@@ -150,7 +148,7 @@ public class PlantsController : ControllerBase
         return Ok(response);
     }
 
-    // GET /api/plants/3
+    
     [HttpGet("{id:int}")]
     public ActionResult<PlantResponse> GetById(int id)
     {
@@ -164,7 +162,7 @@ public class PlantsController : ControllerBase
         return Ok(ToResponse(plant));
     }
 
-    // POST /api/plants
+    
     [HttpPost]
     public ActionResult<PlantResponse> Create(CreatePlantRequest request)
     {
@@ -181,7 +179,6 @@ public class PlantsController : ControllerBase
             ToResponse(plant));
     }
 
-    // Преобразуем модель в ответ для клиента.
     private PlantResponse ToResponse(Plant plant)
     {
         return new PlantResponse
